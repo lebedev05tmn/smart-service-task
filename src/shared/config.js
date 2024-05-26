@@ -1,5 +1,7 @@
 export const AppRoute = {
-  COMPANY: "/",
-  DETAILS: "/employer/",
+  MAIN: "/",
+  EMPLOYER: "/employer",
   NOT_FOUND: "*",
 };
+
+export const MEDIA_DESKTOP = "(min-width: 648px)";

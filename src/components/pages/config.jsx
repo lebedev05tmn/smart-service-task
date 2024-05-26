@@ -1,22 +1,32 @@
+import { createBrowserRouter } from "react-router-dom";
 import { AppRoute } from "../../shared/config";
 import Company from "./Company/Company";
-import Details from "./Details/Details";
+import Employer from "./Employer/Employer";
 import NotFound from "./NotFound/NotFound";
+import MainMobile from "./MainMobile/MainMobile";
 
-export const routes = [
+export const desktopRouter = createBrowserRouter([
   {
-    path: AppRoute.COMPANY,
+    path: AppRoute.MAIN,
     element: <Company />,
-    key: "company_page",
   },
   {
-    path: AppRoute.DETAILS + ":id",
-    element: <Details />,
-    key: "details_page",
+    path: AppRoute.EMPLOYER,
+    element: <Employer />,
   },
   {
     path: AppRoute.NOT_FOUND,
     element: <NotFound />,
-    key: "404_page",
   },
-];
+]);
+
+export const mobileRouter = createBrowserRouter([
+  {
+    path: AppRoute.MAIN,
+    element: <MainMobile />,
+  },
+  {
+    path: AppRoute.NOT_FOUND,
+    element: <NotFound />,
+  },
+]);
