@@ -58,7 +58,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-}`,Ry="/assets/TTFirsNeue-Bold-CDSP2y3G.eot",Ty="/assets/TTFirsNeue-Bold-CvMFbX4l.woff2",Ny="/assets/TTFirsNeue-Bold-D5VtyTq9.woff",Ly="/assets/TTFirsNeue-Bold-CI6I4Ckv.ttf",Dy="/assets/TTFirsNeue-Regular-BolrI0Md.eot",My="/assets/TTFirsNeue-Regular-BqFlXYlK.woff2",Fy="/assets/TTFirsNeue-Regular-D2TrAPqd.woff",Iy="/assets/TTFirsNeue-Regular-BFFYSIHS.ttf",zy=gh`
+}`,Ry="/smart-service-task/assets/TTFirsNeue-Bold-CDSP2y3G.eot",Ty="/smart-service-task/assets/TTFirsNeue-Bold-CvMFbX4l.woff2",Ny="/smart-service-task/assets/TTFirsNeue-Bold-D5VtyTq9.woff",Ly="/smart-service-task/assets/TTFirsNeue-Bold-CI6I4Ckv.ttf",Dy="/smart-service-task/assets/TTFirsNeue-Regular-BolrI0Md.eot",My="/smart-service-task/assets/TTFirsNeue-Regular-BqFlXYlK.woff2",Fy="/smart-service-task/assets/TTFirsNeue-Regular-D2TrAPqd.woff",Iy="/smart-service-task/assets/TTFirsNeue-Regular-BFFYSIHS.ttf",zy=gh`
     @font-face {
         font-family: 'TT Firs Neue';
         src: url('TTFirsNeue-Bold.eot');
