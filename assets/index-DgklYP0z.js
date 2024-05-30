@@ -61,31 +61,31 @@ body {
   align-items: center;
 }
 `,Jd="/smart-service-task/assets/TTFirsNeue-Bold-CDSP2y3G.eot",c1="/smart-service-task/assets/TTFirsNeue-Bold-CvMFbX4l.woff2",d1="/smart-service-task/assets/TTFirsNeue-Bold-D5VtyTq9.woff",f1="/smart-service-task/assets/TTFirsNeue-Bold-CI6I4Ckv.ttf",Zd="/smart-service-task/assets/TTFirsNeue-Regular-BolrI0Md.eot",p1="/smart-service-task/assets/TTFirsNeue-Regular-BqFlXYlK.woff2",h1="/smart-service-task/assets/TTFirsNeue-Regular-D2TrAPqd.woff",m1="/smart-service-task/assets/TTFirsNeue-Regular-BFFYSIHS.ttf",g1=mm`
-    @font-face {
-        font-family: 'TT Firs Neue';
-        src: url(${Jd});
-        src: local('TT Firs Neue Bold'), local('TTFirsNeue-Bold'),
-            url(${Jd}?#iefix') format('embedded-opentype'),
-            url(${c1}) format('woff2'),
-            url(${d1}) format('woff'),
-            url(${f1}) format('truetype');
-        font-weight: 700;
-        font-style: normal;
-        font-display: swap;
-    }
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url(${Jd});
+    src: local('TT Firs Neue Bold'), local('TTFirsNeue-Bold'),
+        url(${Jd}?#iefix') format('embedded-opentype'),
+        url(${c1}) format('woff2'),
+        url(${d1}) format('woff'),
+        url(${f1}) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
 
-    @font-face {
-        font-family: 'TT Firs Neue';
-        src: url(${Zd});
-        src: local('TT Firs Neue Regular'), local('TTFirsNeue-Regular'),
-        url(${Zd}?#iefix') format('embedded-opentype'),
-        url(${p1}) format('woff2'),
-        url(${h1}) format('woff'),
-        url(${m1}) format('truetype');
-        font-weight: 400;
-        font-style: normal;
-        font-display: swap;
-    }
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url(${Zd});
+    src: local('TT Firs Neue Regular'), local('TTFirsNeue-Regular'),
+    url(${Zd}?#iefix') format('embedded-opentype'),
+    url(${p1}) format('woff2'),
+    url(${h1}) format('woff'),
+    url(${m1}) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
     
 `,v1=e=>{const t=n=>R.jsxs(R.Fragment,{children:[R.jsx(g1,{}),R.jsx(u1,{}),R.jsx(e,{...n})]});return t.displayName=`withGlobalStyles(${e.displayName||"Component with Global Styles"})`,t};/**
  * @remix-run/router v1.16.1
