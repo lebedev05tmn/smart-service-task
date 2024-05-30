@@ -4,7 +4,7 @@ import Routing from "./components/pages";
 import { defaultTheme } from "./themes/default";
 
 const App = () => {
-  return withThemeProvider(withGlobalStyles(<Routing />)())(defaultTheme);
+  return withThemeProvider(withGlobalStyles(Routing)())(defaultTheme);
 };
 
 export default App;

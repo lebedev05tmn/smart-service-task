@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledBlock = styled.main`
-  color: white;
+  color: ${({ theme }) => theme.baseBlack};
   width: 100%;
   text-align: center;
   padding-top: 10%;
@@ -9,4 +9,8 @@ export const StyledBlock = styled.main`
   flex-direction: column;
   gap: 20px;
   font-size: 30px;
+
+  ${({ theme }) => theme.mediaDesktop} {
+    color: white;
+  }
 `;

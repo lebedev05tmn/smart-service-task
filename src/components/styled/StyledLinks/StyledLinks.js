@@ -8,7 +8,7 @@ export const StyledLinks = styled.ul`
   gap: 31px;
   list-style: none;
   position: relative;
-  padding-top: 24px;
+  padding: 24px 22px 40px 20px;
 
   ${({ theme }) => theme.mediaDesktop} {
     display: flex;

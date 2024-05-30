@@ -1,3 +1,4 @@
+import ProptTypes from "prop-types";
 import { StyledLink, StyledLogo } from "./style";
 
 const SocialLink = ({ link, image, alt }) => (
@@ -5,4 +6,11 @@ const SocialLink = ({ link, image, alt }) => (
     <StyledLogo src={image} alt={alt} />
   </StyledLink>
 );
+
+SocialLink.propTypes = {
+  link: ProptTypes.string.isRequired,
+  image: ProptTypes.string.isRequired,
+  alt: ProptTypes.string.isRequired,
+};
+
 export default SocialLink;

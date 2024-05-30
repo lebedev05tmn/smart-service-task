@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+// Хук мэтчинга медиа-запроса с обработкой входящиего хэндлера
+
 const useMedia = (media, macthHandler, notMatchHandler) => {
   const matchMedia = window.matchMedia(media);
 

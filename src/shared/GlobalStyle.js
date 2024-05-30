@@ -5,9 +5,10 @@ export default createGlobalStyle`
   margin: 0;
   padding: 0;
   font-family: 'TT Firs Neue';
-  box-sizing: border-box;
-  width: 100%;
+  box-sizing: border-box; 
+  line-height: 1.2;
 }
+
 body {
   background-color: ${({ theme }) => theme.mobileBackground};
   
@@ -20,4 +21,5 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-}`;
+}
+`;

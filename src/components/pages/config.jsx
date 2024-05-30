@@ -5,15 +5,17 @@ import Employer from "./Employer/Employer";
 import NotFound from "./NotFound/NotFound";
 import MainMobile from "./MainMobile/MainMobile";
 
+// Конфигурация роутинга для десктопных устройств
+
 export const desktopRouter = createBrowserRouter(
   [
     {
       path: AppRoute.MAIN,
-      element: <Company />,
+      element: <Employer />,
     },
     {
-      path: AppRoute.EMPLOYER,
-      element: <Employer />,
+      path: AppRoute.COMPANY,
+      element: <Company />,
     },
     {
       path: AppRoute.NOT_FOUND,
@@ -22,6 +24,8 @@ export const desktopRouter = createBrowserRouter(
   ],
   { basename: import.meta.env.BASE_URL }
 );
+
+// Конфигурация роутинга для мобильных устройств
 
 export const mobileRouter = createBrowserRouter(
   [

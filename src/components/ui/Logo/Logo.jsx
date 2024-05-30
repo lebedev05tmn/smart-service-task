@@ -1,11 +1,17 @@
-import { Container } from "./style";
+import PropTypes from "prop-types";
+import Container from "./style";
 
-const Logo = ({ image, width }) => {
+const Logo = ({ image, size }) => {
   return (
-    <Container width={width}>
+    <Container size={size}>
       <img src={image} />
     </Container>
   );
+};
+
+Logo.propTypes = {
+  image: PropTypes.string.isRequired,
+  size: PropTypes.string.isRequired,
 };
 
 export default Logo;

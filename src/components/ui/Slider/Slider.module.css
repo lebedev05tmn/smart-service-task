@@ -1,0 +1,23 @@
+.bulletClass {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #9a9a9a;
+  display: inline-block;
+  opacity: 10;
+}
+
+.bulletActiveClass {
+  width: 33px;
+  height: 6px;
+  display: inline-block;
+  background: #060606;
+  border-radius: 16px;
+}
+
+.horizontalClass {
+  gap: 6px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
