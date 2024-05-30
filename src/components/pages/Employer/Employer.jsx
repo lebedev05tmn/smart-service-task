@@ -51,6 +51,7 @@ const Employer = ({ as }) => {
   return (
     <>
       {media.PreviewMobile}
+      {media.Navigation}
       <StyledMain as={as} id="employer">
         <StyledSection id="info">
           {media.Preview}
