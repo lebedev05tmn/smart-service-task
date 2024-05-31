@@ -344,7 +344,7 @@ body {
     height: 495px;
     border-radius: 8.11px;
   }
-`,Vx="_bulletClass_1orcy_1",Wx="_bulletActiveClass_1orcy_10",Hx="_horizontalClass_1orcy_18",Gx={bulletClass:Vx,bulletActiveClass:Wx,horizontalClass:Hx},wc=({images:e})=>R.jsx(Bx,{modules:[Ax],pagination:{enabled:!0,clickable:!0,...Gx},children:e.map(t=>R.jsx(cg,{children:R.jsx(Ux,{src:t.image,alt:t.title})},t.title))});wc.propTypes={images:b.arrayOf(b.shape({title:b.string,image:b.string}))};const Qx=ne.section`
+`,Vx="_bulletClass_1iaqi_1",Wx="_bulletActiveClass_1iaqi_10",Hx="_horizontalClass_1iaqi_18",Gx={bulletClass:Vx,bulletActiveClass:Wx,horizontalClass:Hx},wc=({images:e})=>R.jsx(Bx,{modules:[Ax],pagination:{enabled:!0,clickable:!0,...Gx},children:e.map(t=>R.jsx(cg,{children:R.jsx(Ux,{src:t.image,alt:t.title})},t.title))});wc.propTypes={images:b.arrayOf(b.shape({title:b.string,image:b.string}))};const Qx=ne.section`
   width: min-content;
 `,Kx=ne.button`
   width: 100%;
