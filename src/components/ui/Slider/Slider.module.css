@@ -19,5 +19,9 @@
   gap: 6px;
   display: flex;
   justify-content: center;
-  margin-bottom: 24px;
+  margin-bottom: 48px;
+
+  @media (min-width: 648px) {
+    margin-bottom: 24px;
+  }
 }
